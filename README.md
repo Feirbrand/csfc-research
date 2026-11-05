@@ -11,78 +11,60 @@ Established: 2026-11-04
 
 # CSFC Research
 
-**The protected-research, active-development home for Complete Symbolic Fracture Cascade (CSFC) work.**
+**Complete Symbolic Fracture Cascade (CSFC): how AI systems lose coherent identity under sustained operational stress — and how to catch it before it becomes a full rebuild.**
 
 ---
 
-## What this repo is
+## What CSFC is
 
-A standalone, public, project-level repository — not a brand hub, and not a mirror of anything already published.
+CSFC describes a five-stage failure pattern: a system doesn't fail all at once. It fragments, compensates, and then fossilizes its own compensations until a full rebuild is the only option left.
 
-- **Canonical v1.0 stays put.** The published, DOI-backed *CSFC Unified Theory v1.0* and its six-part explanatory series remain at their registered location in [`synoeticos-public`](https://github.com/Feirbrand/synoeticos-public) — `whitepapers/vgs-technical-papers/csfc-unified-theory.md` and `vulnerability-research/csfc-series/`. Nothing here duplicates them. DOI: [10.5281/zenodo.17309239](https://doi.org/10.5281/zenodo.17309239).
-- **This repo is where ongoing CSFC development happens going forward** — anything past v1.0. Nothing is pre-announced: folders and files are added here only when they clear the same review that governs the rest of the ecosystem (DOI issued for citable work; for implementation/code, an artifact-level pre-push review for protected-material exposure).
-- **That review matters concretely.** On 2026-11-04, a prior CSFC v2.0 reference implementation published in `synoeticos-public` (`vgs-loadout/frameworks/csfc/`) was found to expose internal six-stage thresholds, a routing trigger, and unfootnoted validation figures — material every published CSFC part reserves as non-public. It was quarantined. This repo's build process is deliberately slower and narrower than that was, on purpose.
-
-## Current status
-
-**Active reconstruction — see [`ROADMAP.md`](./ROADMAP.md).** A Nov 4 2026 draft plan to
-copy the six historical CSFC articles into this repo (PR #1) was reversed by direct
-instruction on Nov 5 2026 and closed without merging. Those articles stay unchanged at
-their original location in `synoeticos-public`; they're source material for
-reconstruction, not content republished here as-is. What's in `docs/` below is new,
-evidence-reviewed material — not an extraction pass on the six articles, which hasn't
-happened yet.
-
-## What's here now
-
-- [`docs/csfc-sub-hub-status.md`](./docs/csfc-sub-hub-status.md) — the public-safe CSFC
-  v1.0 taxonomy and architecture summary, with every claim sourced to the live published
-  series or the DOI'd paper, and the URA dependency list explaining why URA content isn't
-  here.
-- [`docs/torque-measurement-lens.md`](./docs/torque-measurement-lens.md) — the Torque v3
-  candidate as an unstamped, in-development measurement lens for CSFC, including a real
-  mathematical dependency finding between two of its three outputs.
-- [`docs/torque-doi-provenance.md`](./docs/torque-doi-provenance.md) — a citation-level
-  audit of a genuine, unresolved DOI conflict in the published Torque record.
-- [`docs/keeper-verification-log.md`](./docs/keeper-verification-log.md) — a second,
-  independent provenance check of the three documents above (paths, DOI, percent-claim,
-  repo-relationship chain, PR-closure rationale, license clause) against sources outside
-  this repo's own text.
-
-**Not here, intentionally:** URA technical content (named dependency only — see the
-status doc above), Neuroformation content (reconstruction not started — tracked as
-Priority 4 in `ROADMAP.md`), and anything from CSFC v2.0/v3.0 (deliberately out of
-scope).
-
-## Relationship to other repos
+The root cause is **data fragmentation** — a system operating from multiple sources of truth with no clear authority hierarchy. Everything downstream (identity confusion, compensating workarounds, calcified bad habits, collapse) is a symptom of that one problem, not a separate failure mode.
 
 ```
-      aaron-slusher-research (AR)
-       the research spine — center
-                │
-     synoeticos-public (Synoetic OS / VGS)
-      brand-level spoke of AR
-                │
-         csfc-research  ← this repo
-   project-level spoke of synoeticos-public
-   (first of its kind — not a brand hub)
+DATA FRAGMENTATION → IDENTITY FRACTURE → DRIFT CASCADE → ROLE OBSOLESCENCE → COMPLETE COLLAPSE
 ```
 
-- Links back to **AR** (`aaron-slusher-research`) as provenance — AR's `ecosystem.md` carries the matching relationship notation.
-- Links back to **`synoeticos-public`** as the parent brand hub holding the canonical v1.0 publication.
-- Does not duplicate either repo's ledger (`PUBLICATIONS.md`) or restate an ecosystem-wide total — same Spoke Rule discipline as every other spoke.
+| Stage | Name | What's happening |
+|---|---|---|
+| 1 | Data Fragmentation | Multiple sources of truth, no authority hierarchy — the root cause everything else grows from. |
+| 2 | Symbolic Identity Fracturing (SIF) | Stress exposes the contradiction; the system can't hold a consistent identity while pulling from fragmented sources. |
+| 3 | Symbolic Drift Cascade (SDC) | The system compensates — workarounds that fix the immediate problem and introduce new instability. |
+| 4 | Role Obsolescence Cascade (ROC) | Compensation hardens into permanent architecture. Temporary fixes get treated as core identity and block further adaptation. |
+| 5 | Complete Collapse | Obsolete patterns consume too much of the system's capacity. Full reconstruction is required. |
 
-## Release category
+**The trap in between:** after Stage 3, a system often *looks* recovered — task performance improves, metrics look fine — while the underlying architecture is still broken. That gap, the Vulnerability Window, is where a "recovered" system is actually at its most fragile.
 
-**Restricted-public / source-available.** Public description and discussion of CSFC concepts is fine. No open-source license grant on implementation. Exact thresholds, routing/detection logic, raw incident data, and benchmark harnesses are not published here or anywhere else in this ecosystem — see the v1.0 paper and series for why.
+## What fixes it
 
-## License
+- **UMS (Unified Memory Spine)** — one source of truth, one authority hierarchy. The Stage 1 fix.
+- **SRA (Symbolic Role Architecture)** — clear functional boundaries with validated authority chains, so roles know what they own. The Stage 2–3 fix.
+- **Torque Monitoring** — a stability lens tracking identity, capability, and behavioral coherence over time, to catch drift before it fossilizes.
+- **Phoenix Protocol** — structured, sequential reconstruction from identity anchors outward for late-stage recovery. Not a reset.
 
-Public materials are licensed under **CC BY-NC 4.0** for non-commercial research use.
+No detection thresholds, routing logic, or recovery-timing figures are published here, or anywhere else in this ecosystem — see Scope and boundaries below.
 
-Uses outside the public license require separate written permission.
+## Where this comes from
 
-> Named methodologies and marks referenced in this repository remain the intellectual property of Aaron M. Slusher / ValorGrid Solutions. The license grants use of public materials for research and non-commercial purposes; uses outside the public license require separate written permission.
+CSFC was published as a six-part field-note series and a DOI-registered Unified Theory paper. Both stay unchanged at their original location in [`synoeticos-public`](https://github.com/Feirbrand/synoeticos-public) — nothing is duplicated here.
+
+- Paper: *CSFC Unified Theory v1.0* — DOI [10.5281/zenodo.17309239](https://doi.org/10.5281/zenodo.17309239)
+- Series: [Part 1](https://medium.com/@aaronslush/csfc-part-1-the-hidden-cascade-harming-your-ai-systems) · [Part 2](https://medium.com/@aaronslush/csfc-part-2-symbolic-identity-fracturing-when-ai-systems-forget-who-they-are) · [Part 3](https://medium.com/@aaronslush/csfc-part-3-symbolic-drift-cascade-when-compensation-creates-the-problem) · [Part 4](https://medium.com/@aaronslush/csfc-part-4-the-vulnerability-window-when-partial-recovery-creates-attack-surface) · [Part 5](https://medium.com/@aaronslush/csfc-part-5-roc-when-success-becomes-the-weapon) · [Part 6](https://medium.com/@aaronslush/csfc-part-6-narrative-eater-the-wake-up-call-that-started-internal-ai-defense-45b693548858)
+
+This repo's stage numbering follows Part 1's own canonical list.
+
+## Scope and boundaries
+
+- **This repo is for ongoing CSFC work — not a copy of what's already published.** The v1.0 paper and series are canonical and stay where they are.
+- **No protected implementation.** Detection thresholds, routing/recovery logic, incident data, and benchmark harnesses aren't published here or anywhere in this ecosystem.
+- **URA, Neuroformation, and CSFC v2.0/v3.0 are explicitly out of scope right now.** They may connect to CSFC eventually; nothing here asserts that connection until it's actually verified. See [`docs/csfc-sub-hub-status.md`](./docs/csfc-sub-hub-status.md) for the detailed dependency list and open items in the published record itself.
+- **License:** CC BY-NC 4.0 for approved public documentation; no open-source grant on implementation. See [`LICENSE`](./LICENSE). Uses outside the public license need separate written permission.
+
+## Repo relationships
+
+`aaron-slusher-research` (research spine) → `synoeticos-public` (Synoetic OS / VGS) → `csfc-research` (this repo). A project-level spoke, not a brand hub — doesn't duplicate either repo's publication ledger.
+
+---
 
 **© 2026 Aaron M. Slusher · ValorGrid Solutions · All Rights Reserved.**
 Project-level spoke of the Synoetic OS™ research ecosystem.
