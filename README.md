@@ -23,6 +23,33 @@ A standalone, public, project-level repository — not a brand hub, and not a mi
 - **This repo is where ongoing CSFC development happens going forward** — anything past v1.0. Nothing is pre-announced: folders and files are added here only when they clear the same review that governs the rest of the ecosystem (DOI issued for citable work; for implementation/code, an artifact-level pre-push review for protected-material exposure).
 - **That review matters concretely.** On 2026-11-04, a prior CSFC v2.0 reference implementation published in `synoeticos-public` (`vgs-loadout/frameworks/csfc/`) was found to expose internal six-stage thresholds, a routing trigger, and unfootnoted validation figures — material every published CSFC part reserves as non-public. It was quarantined. This repo's build process is deliberately slower and narrower than that was, on purpose.
 
+## Current status
+
+**Active reconstruction — see [`ROADMAP.md`](./ROADMAP.md).** A Nov 4 2026 draft plan to
+copy the six historical CSFC articles into this repo (PR #1) was reversed by direct
+instruction on Nov 5 2026 and closed without merging. Those articles stay unchanged at
+their original location in `synoeticos-public`; they're source material for
+reconstruction, not content republished here as-is. What's in `docs/` below is new,
+evidence-reviewed material — not an extraction pass on the six articles, which hasn't
+happened yet.
+
+## What's here now
+
+- [`docs/csfc-sub-hub-status.md`](./docs/csfc-sub-hub-status.md) — the public-safe CSFC
+  v1.0 taxonomy and architecture summary, with every claim sourced to the live published
+  series or the DOI'd paper, and the URA dependency list explaining why URA content isn't
+  here.
+- [`docs/torque-measurement-lens.md`](./docs/torque-measurement-lens.md) — the Torque v3
+  candidate as an unstamped, in-development measurement lens for CSFC, including a real
+  mathematical dependency finding between two of its three outputs.
+- [`docs/torque-doi-provenance.md`](./docs/torque-doi-provenance.md) — a citation-level
+  audit of a genuine, unresolved DOI conflict in the published Torque record.
+
+**Not here, intentionally:** URA technical content (named dependency only — see the
+status doc above), Neuroformation content (reconstruction not started — tracked as
+Priority 4 in `ROADMAP.md`), and anything from CSFC v2.0/v3.0 (deliberately out of
+scope).
+
 ## Relationship to other repos
 
 ```
