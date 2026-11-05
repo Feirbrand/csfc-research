@@ -44,6 +44,10 @@ happened yet.
   mathematical dependency finding between two of its three outputs.
 - [`docs/torque-doi-provenance.md`](./docs/torque-doi-provenance.md) — a citation-level
   audit of a genuine, unresolved DOI conflict in the published Torque record.
+- [`docs/keeper-verification-log.md`](./docs/keeper-verification-log.md) — a second,
+  independent provenance check of the three documents above (paths, DOI, percent-claim,
+  repo-relationship chain, PR-closure rationale, license clause) against sources outside
+  this repo's own text.
 
 **Not here, intentionally:** URA technical content (named dependency only — see the
 status doc above), Neuroformation content (reconstruction not started — tracked as
