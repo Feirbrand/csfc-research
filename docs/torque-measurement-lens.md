@@ -57,6 +57,8 @@ their temporal summaries (`C₃`) would likely track each other too, not add ind
 information — which would undercut using both in a clustering step without first
 re-deriving what, if anything, each one is actually adding.
 
+**Domain note:** the closed form `τ₃ = 2·r·F·√(D·(1 − D))` only reproduces `sin(θ)` for `θ ∈ [0, π]` (nonnegative `r·F` assumed). Outside that range, or for signed `θ`, the square root is always nonnegative and cannot recover the sign of `sin(θ)` — so this identity on its own cannot distinguish the direction of deviation, only its magnitude, unless `θ`'s domain is separately constrained or tracked.
+
 ## Four-gate verification framework
 
 Multiple independent reviewers converged on the same gating structure for any Torque
