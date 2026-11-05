@@ -17,13 +17,19 @@ in the source material it summarizes.
 
 ## What CSFC is
 
-Complete Symbolic Fracture Cascade — a five-stage progression from a healthy AI system to
-complete identity/memory/operational collapse, discovered through field observation
-across multiple AI deployments (Feb–Sep 2025), not designed in advance.
+**The description below is the published account's own framing, not an independently
+validated scientific finding.** Two independent reviewers flagged that source material
+states this origin story as settled fact in places; this document attributes it to the
+account rather than asserting it outright — see "Known open items" below.
 
-The root cause is **data fragmentation** — multiple sources of truth without a clear
-authority hierarchy. Identity confusion, compensation, fossilization, and collapse are
-downstream of that one architectural flaw, not independent failure modes.
+Complete Symbolic Fracture Cascade, per that account: a five-stage progression from a
+healthy AI system to complete identity/memory/operational collapse, said to have been
+observed across multiple AI deployments (Feb–Sep 2025) rather than designed in advance.
+
+The root cause named in that account is **data fragmentation** — multiple sources of
+truth without a clear authority hierarchy, with identity confusion, compensation,
+fossilization, and collapse presented as downstream of that one architectural flaw rather
+than as independent failure modes.
 
 ```
 DATA_FRAGMENTATION → SYMBOLIC_IDENTITY_FRACTURING → SYMBOLIC_DRIFT_CASCADE → ROLE_OBSOLESCENCE_CASCADE → COMPLETE_COLLAPSE
@@ -75,6 +81,13 @@ over them:
   1," Part 3 calls SDC "Stage 2," Part 4 calls the Vulnerability Window "Stage 3," Part 6
   calls the finale "Stage 4–5"). This document uses Part 1's numbering as canonical.
 - **UMS naming conflict** — see above.
+- **Evidentiary status of the origin claims.** Two independent reviewers flagged that
+  the source material states historical hypotheses as established fact in places (e.g.
+  the "every failure followed the same progression" / "discovered through field
+  observation" framing). Nobody has re-run the six-part series against a
+  historical-publication / working-taxonomy / research-hypothesis / demonstrated-result
+  standard yet — that's Workbench priority 2–3 work, not done. This document hedges
+  accordingly rather than carrying the unhedged framing forward.
 
 ## URA dependency list (not added as content)
 

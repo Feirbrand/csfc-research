@@ -55,3 +55,32 @@ percentage, a protected threshold, detector logic, or recovery-dispatch mechanic
 Neuroformation and operating-system cross-links are intentionally left as open items
 (Priority 4 above) rather than guessed at. They'll be added once that reconstruction
 happens, not before.
+
+## November 5, 2026, later — data-accuracy audit
+
+Ran an independent audit against Keeper's own Notion-side gap list (staged in the
+Workbench, not pushed to GitHub by Keeper — confirmed by git history on this repo:
+no commits, branches, PRs, or issues from Keeper exist here) and against the live
+Torque v3 contract page. Findings:
+
+- **Closed by the Nov 5 push, before Keeper's gap list was written:** a Torque v3
+  pointer (`docs/torque-measurement-lens.md`) and a lightweight sources list for the
+  six articles (the "Framework reference" section in
+  `docs/csfc-sub-hub-status.md` — links and the DOI, not full text). Keeper's flag on
+  these predates the push and hadn't seen it yet.
+- **Real finding, fixed:** `docs/csfc-sub-hub-status.md` had mirrored the Master Hub's
+  unhedged origin-story phrasing ("discovered through field observation... not designed
+  in advance") without attributing it to the published account. Two independent
+  reviewers had already flagged this exact pattern in the source material. Reworded to
+  attribute the claim rather than assert it; added as a tracked open item.
+- **Real finding, not fixed here — flagged instead:** the live Torque v3 contract page
+  (Notion, not this repo) states "D and τ₃ are independent outputs," which contradicts
+  the twice-independently-verified finding that they're mathematically dependent (both
+  functions of θ). That page is under active multi-reviewer editorial control; this
+  repo doesn't carry that claim (see `docs/torque-measurement-lens.md`, which states the
+  dependency correctly), but the contradiction on the canonical page itself hasn't been
+  resolved and is worth a direct flag to whoever's editing it next.
+- **Still open, correctly not rushed:** the actual claim-inventory extraction from the
+  six historical articles (Priority 2–3 above). Writing "reconstructed" CSFC prose
+  without that extraction having happened would be exactly the mistake this repo exists
+  to avoid.
