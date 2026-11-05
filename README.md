@@ -33,6 +33,7 @@ DATA FRAGMENTATION → IDENTITY FRACTURE → DRIFT CASCADE → ROLE OBSOLESCENCE
 | 4 | Role Obsolescence Cascade (ROC) | Compensation hardens into permanent architecture. Temporary fixes get treated as core identity and block further adaptation. |
 | 5 | Complete Collapse | Obsolete patterns consume too much of the system's capacity. Full reconstruction is required. |
 
+Each stage also has its own file, with a public-level technical definition and a link to its source article — see [`docs/stages/`](./docs/stages/).
 **The trap in between:** after Stage 3, a system often *looks* recovered — task performance improves, metrics look fine — while the underlying architecture is still broken. That gap, the Vulnerability Window, is where a "recovered" system is actually at its most fragile.
 
 ## What fixes it
