@@ -16,12 +16,13 @@ are, by definition, public.
 
 ## The conflict
 
-At least four distinct DOIs have been associated with "Torque" or an adjacent paper
-across the material reviewed, and they do not agree with each other:
+At least three distinct DOIs have been associated with "Torque" or an adjacent paper
+within material in scope for this repo, and they do not agree with each other. (A
+fourth is tracked in the operating-system repo's publication record instead — see
+`synoeticos-public/README.md`'s correction-note stack.)
 
 | DOI | What it's attached to, where | Formula / content |
 |---|---|---|
-| `10.5281/zenodo.17309731` | URA v1.5 paper ("Resilience and Recovery"), published Oct 10, 2025. Self-consistent — this paper doesn't claim any other paper's DOI. | Mechanical form: `τ = r·F·sin(θ)`. Threshold table published in-paper (not reproduced here — see note below). |
 | `10.5281/zenodo.17373552` | Torque v2.0 paper ("Quantitative Foundation"), priority date Jan 15 2025, published Oct 15 2025. | Form: `τ = √(v²_drift + (1 − cos θ_align)²) · (1 − λ_damp)`. Threshold zones published in-paper. |
 | `10.5281/zenodo.17379750` | **Conflicting attribution.** The v2.0 paper's own reference list cites this DOI as belonging to a *different* paper — "Universal Cognitive Architecture (UCA) v3.1." A separate public companion note ("Measuring AI System Stability in Real-Time") instead cites this same DOI as its *own* canonical Torque record, naming `torque-quantitative-foundation-v2.md` as the canonical paper while using this DOI for itself. Those two claims about what `17379750` actually is cannot both be right. |
 | `10.5281/zenodo.17297590` | Cited elsewhere (a separate framework's paper, PME) as the DOI for "Torque." | Not independently confirmed against a Torque paper by this review. |
@@ -41,8 +42,7 @@ Zenodo accounts, not something resolved by writing a stronger-sounding paragraph
 - It does not reproduce either paper's threshold tables, internal formulas-as-authoritative,
   or validation datasets.
 - It does not declare a winner between the mechanical form and the v2.0 form.
-- It does not fold URA's Torque formula into CSFC content — see
-  `csfc-sub-hub-status.md` § URA dependency list for why that stays separate.
+- It does not fold any out-of-scope paper's Torque formula into CSFC content — each stays in its own publication record.
 - It does not treat the Torque v3 candidate (`torque-measurement-lens.md`) as a
   resolution to this conflict — it's a third, separately unstamped candidate, not an
   arbiter of the first two.

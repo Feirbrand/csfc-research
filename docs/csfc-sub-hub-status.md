@@ -89,25 +89,6 @@ over them:
   standard yet — that's Workbench priority 2–3 work, not done. This document hedges
   accordingly rather than carrying the unhedged framing forward.
 
-## URA dependency list (not added as content)
-
-URA (Unified Resilience Architecture) is a *consumer* of the CSFC stage label — it is not
-folded into CSFC content here. This decision has been made independently twice (once on
-architectural grounds, once by Aaron directly) and these are the concrete blockers that
-would have to close first if that ever changed:
-
-| Dependency | Status | Blocks |
-|---|---|---|
-| CSFC stage vocabulary | Open — at least six variants exist across the ecosystem; Part 1's list is canon for this repo. | URA v2 needs a CSFC v3 taxonomy that doesn't exist yet. |
-| Torque formula | Open — two DOI'd papers define different equations; the v3 candidate isn't stamped. | URA embeds the mechanical form; the standalone Torque paper doesn't. |
-| Torque polarity | Open — one internal document uses high = healthy, the v3 candidate uses low = less active twisting. | Mixing the two inverts every stage read. |
-| Torque thresholds | None published — internal bands are historical candidates only. | No Torque-to-stage table is safe to publish. |
-| URA version / status | Open — version and deployment status disagree across records. | No single authoritative URA record to point at. |
-| Phoenix phase count | Open — described as 3-phase, 4-phase, and 5-phase in different places. | Recovery dispatch isn't stable enough to link. |
-
-Until those close, this repo points at the Torque v3 candidate as a measurement lens
-under development, and leaves URA as a named, out-of-scope dependency.
-
 ## Framework reference
 
 **Published series (Medium, Sep 29 – Oct 4, 2025)** — unchanged, at their original

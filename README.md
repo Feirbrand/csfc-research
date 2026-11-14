@@ -44,7 +44,7 @@ Each stage also has its own file, with a public-level technical definition and a
 - **Torque Monitoring** — a stability lens tracking identity, capability, and behavioral coherence over time, to catch drift before it fossilizes.
 - **Phoenix Protocol** — structured, sequential reconstruction from identity anchors outward for late-stage recovery. Not a reset.
 
-This repository does not publish validated CSFC detection thresholds, operational routing implementations, or verified recovery-time benchmarks. Historical numerical assertions appear in related publications, including URA v1.5, and require independent evidence review — see Scope and boundaries below.
+This repository does not publish validated CSFC detection thresholds, operational routing implementations, or verified recovery-time benchmarks. Historical numerical assertions appear in related external publications and require independent evidence review — see Scope and boundaries below.
 
 ## Where this comes from
 
@@ -58,8 +58,8 @@ This repo's stage numbering follows Part 1's own canonical list.
 ## Scope and boundaries
 
 - **This repo is for ongoing CSFC work — not a copy of what's already published.** The v1.0 paper and series are canonical and stay where they are.
-- **No protected implementation.** This repository does not release protected detector implementations, executable routing/recovery logic, private incident datasets, or benchmark harnesses. Related publications (e.g. URA v1.5) contain historical threshold and recovery-performance assertions; those disclosures do not establish independent validation or release of implementation artifacts.
-- **URA, Neuroformation, and CSFC v2.0/v3.0 are explicitly out of scope right now.** They may connect to CSFC eventually; nothing here asserts that connection until it's actually verified. See [`docs/csfc-sub-hub-status.md`](./docs/csfc-sub-hub-status.md) for the detailed dependency list and open items in the published record itself.
+- **No protected implementation.** This repository does not release protected detector implementations, executable routing/recovery logic, private incident datasets, or benchmark harnesses. Related external publications contain historical threshold and recovery-performance assertions; those disclosures do not establish independent validation or release of implementation artifacts.
+- **Neuroformation and CSFC v2.0/v3.0 are explicitly out of scope right now.** They may connect to CSFC eventually; nothing here asserts that connection until it's actually verified. See [`docs/csfc-sub-hub-status.md`](./docs/csfc-sub-hub-status.md) for open items in the published record itself.
 - **License:** CC BY-NC 4.0 for approved public documentation; no open-source grant on implementation. See [`LICENSE`](./LICENSE). Uses outside the public license need separate written permission.
 
 ## Repo relationships

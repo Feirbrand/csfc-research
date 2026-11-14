@@ -79,7 +79,6 @@ otherwise should be checked against this table before being trusted.
 - Not a replacement for, or amendment to, anything published under CSFC v1.0.
 - Not a source of thresholds, routing logic, or recovery dispatch — none exist yet at a
   reviewed, publishable level.
-- Not URA content. URA's own, separately published mechanical Torque formula is a
-  different, already-DOI'd object; see `torque-doi-provenance.md` for how it relates (and
-  conflicts) with the other published Torque material.
+- Not a restatement of another published paper's Torque formula — see
+  `torque-doi-provenance.md` for the citation-level conflict across published Torque material.
 - Not a clustering algorithm — `C₃` is a temporal-summary sketch, not a validated method.

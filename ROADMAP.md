@@ -32,9 +32,8 @@ Current execution order (supersedes anything implied by PR #1):
 | 2 | Source retrieval | Recover and inspect original CSFC evidence | In progress (ongoing, outside this repo) |
 | 3 | Data extraction | Separate supported findings from drift and hallucinations | In progress (ongoing, outside this repo) |
 | 4 | Neuroformation | Reconstruct the identity and research-origin relationship | Not started — no verified NF content exists yet to link from here |
-| 5 | URA | Determine its actual technical relationship to CSFC | Open — see `docs/csfc-sub-hub-status.md` § URA dependency list |
-| 6 | Repository design | Develop corrected, evidence-led documentation | Started 2026-11-05 — `docs/` content below |
-| 7 | Governance | Complete review and obtain approval before publication | Ongoing — every doc here carries its own claim-status and open items |
+| 5 | Repository design | Develop corrected, evidence-led documentation | Started 2026-11-05 — `docs/` content below |
+| 6 | Governance | Complete review and obtain approval before publication | Ongoing — every doc here carries its own claim-status and open items |
 
 ## What's in `docs/` right now and why
 
@@ -73,13 +72,14 @@ Torque v3 contract page. Findings:
   in advance") without attributing it to the published account. Two independent
   reviewers had already flagged this exact pattern in the source material. Reworded to
   attribute the claim rather than assert it; added as a tracked open item.
-- **Real finding, not fixed here — flagged instead:** the live Torque v3 contract page
-  (Notion, not this repo) states "D and τ₃ are independent outputs," which contradicts
-  the twice-independently-verified finding that they're mathematically dependent (both
-  functions of θ). That page is under active multi-reviewer editorial control; this
-  repo doesn't carry that claim (see `docs/torque-measurement-lens.md`, which states the
-  dependency correctly), but the contradiction on the canonical page itself hasn't been
-  resolved and is worth a direct flag to whoever's editing it next.
+- **Real finding — resolved Nov 6, 2026 on the canonical page.** The live Torque v3
+  contract page (Notion, not this repo) stated "D and τ₃ are independent outputs,"
+  contradicting the twice-independently-verified finding that they're mathematically
+  dependent (both functions of θ). That page's own Nov 6 2026 correction note now
+  rewords this to "reported separately" and documents the τ₃ = 2·r·F·√(D·(1−D))
+  identity directly. This repo never carried the incorrect claim (see
+  `docs/torque-measurement-lens.md`, which has stated the dependency correctly
+  throughout) — no further action needed here beyond this status update.
 - **Still open, correctly not rushed:** the actual claim-inventory extraction from the
   six historical articles (Priority 2–3 above). Writing "reconstructed" CSFC prose
   without that extraction having happened would be exactly the mistake this repo exists
