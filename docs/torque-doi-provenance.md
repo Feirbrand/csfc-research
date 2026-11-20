@@ -14,6 +14,8 @@ and companion material, so the conflict is visible and not silently carried forw
 anything new. Nothing here is protected content — DOIs and their public reference lists
 are, by definition, public.
 
+**Canonical DOI authority — November 14, 2026:** The Published Papers Master Ledger assigns DOI 10.5281/zenodo.17379750 to *Torque v2.0: Quantitative Foundation for AI Resilience*. The conflicting attributions documented below are historical citation and provenance discrepancies, not competing canonical DOI ownership. This audit preserves those discrepancies without changing published manuscripts, reassigning other DOIs, or resolving separate formula-provenance and validation questions.
+
 ## The conflict
 
 At least three distinct DOIs have been associated with "Torque" or an adjacent paper
@@ -32,8 +34,7 @@ fourth is tracked in the operating-system repo's publication record instead — 
 CSFC's own published material withholds Torque's formula and thresholds at the public
 level (see `csfc-sub-hub-status.md`). That means CSFC readers who go looking for "the"
 Torque paper via DOI have no single, uncontested citation to follow — they'll land on at
-least two different formulas depending on which DOI they're handed, with a third DOI's
-ownership itself in dispute. This repo is not the place to arbitrate which, if any, of
+least two different formulas depending on which DOI they're handed, with a third DOI's historical citation attribution also in conflict (canonical ownership is settled — see "Canonical DOI authority" above). This repo is not the place to arbitrate which, if any, of
 these DOIs is "correct" — that's a publication-record question for whoever holds the
 Zenodo accounts, not something resolved by writing a stronger-sounding paragraph here.
 
@@ -49,5 +50,4 @@ Zenodo accounts, not something resolved by writing a stronger-sounding paragraph
 
 ## Status
 
-Open. This conflict has not been resolved by any reviewer to date. Anything published
-later that cites a Torque DOI should be checked against this table first.
+**Canonical DOI assignment:** Resolved in the Published Papers Master Ledger as of the November 14, 2026 Workbench reconciliation. **Historical cross-citation provenance:** Open for evidence reconciliation. Earlier citation conflicts remain documented above and do not reopen canonical ownership. Future explanatory citations follow the authoritative ledger; protected originals remain unchanged.
