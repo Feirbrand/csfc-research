@@ -31,7 +31,7 @@ Current execution order (supersedes anything implied by PR #1):
 | 1 | PR #1 | Stop the outdated six-article reproduction plan | ✅ Done — PR closed 2026-11-05 |
 | 2 | Source retrieval | Recover and inspect original CSFC evidence | In progress (ongoing, outside this repo) |
 | 3 | Data extraction | Separate supported findings from drift and hallucinations | In progress (ongoing, outside this repo) |
-| 4 | Neuroformation | Reconstruct the identity and research-origin relationship | Not started — no verified NF content exists yet to link from here |
+| 4 | Neuroformation | Reconstruct the identity and research-origin relationship | Origin material recovered — the shared practitioner origin is documented; technical NF/CSFC v2.0–v3.0 integration is not validated. A public-safe research-origins page is proposed, pending review. |
 | 5 | Repository design | Develop corrected, evidence-led documentation | Started 2026-11-05 — `docs/` content below |
 | 6 | Governance | Complete review and obtain approval before publication | Ongoing — every doc here carries its own claim-status and open items |
 
@@ -51,9 +51,10 @@ percentage, a protected threshold, detector logic, or recovery-dispatch mechanic
 - `docs/torque-doi-provenance.md` — a citation-level audit of a real, unresolved DOI
   conflict across the published Torque record. Bibliographic, not protected.
 
-Neuroformation and operating-system cross-links are intentionally left as open items
-(Priority 4 above) rather than guessed at. They'll be added once that reconstruction
-happens, not before.
+Neuroformation's documented origin material is recovered (Priority 4 above); the
+proposed public-safe research-origins page and any operating-system cross-links are
+staged for review, not yet added. Technical NF/CSFC v2.0–v3.0 integration remains
+unverified and isn't asserted here.
 
 ## November 5, 2026, later — data-accuracy audit
 
