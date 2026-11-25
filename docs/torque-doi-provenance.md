@@ -32,11 +32,7 @@ fourth is tracked in the operating-system repo's publication record instead — 
 ## Why this matters for CSFC
 
 CSFC's own published material withholds Torque's formula and thresholds at the public
-level (see `csfc-sub-hub-status.md`). That means CSFC readers who go looking for "the"
-Torque paper via DOI have no single, uncontested citation to follow — they'll land on at
-least two different formulas depending on which DOI they're handed, with a third DOI's historical citation attribution also in conflict (canonical ownership is settled — see "Canonical DOI authority" above). This repo is not the place to arbitrate which, if any, of
-these DOIs is "correct" — that's a publication-record question for whoever holds the
-Zenodo accounts, not something resolved by writing a stronger-sounding paragraph here.
+level (see `csfc-sub-hub-status.md`). CSFC readers should follow the canonical DOI identified above; historical citations point to differing formulas and retain unresolved provenance discrepancies. This repo records historical citation discrepancies without reopening canonical DOI ownership or reassigning other DOIs.
 
 ## What this document deliberately does not do
 
