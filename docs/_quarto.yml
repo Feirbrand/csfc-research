@@ -1,0 +1,54 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "CSFC Research"
+  description: "Public-safe research documentation for the proposed Complete Symbolic Fracture Cascade model."
+  site-url: "https://feirbrand.github.io/csfc-research/"
+  repo-url: "https://github.com/Feirbrand/csfc-research"
+  repo-actions: [edit, issue]
+  navbar:
+    background: "#172033"
+    foreground: "#f5c451"
+    left:
+      - href: index.qmd
+        text: Home
+      - href: csfc-sub-hub-status.md
+        text: CSFC status
+      - href: stages/index.qmd
+        text: Five stages
+      - href: roadmap.qmd
+        text: Roadmap
+    right:
+      - icon: github
+        href: https://github.com/Feirbrand/csfc-research
+        aria-label: GitHub repository
+  sidebar:
+    style: "docked"
+    contents:
+      - section: "CSFC model"
+        contents:
+          - csfc-sub-hub-status.md
+          - stages/index.qmd
+          - stages/stage-1-data-fragmentation.md
+          - stages/stage-2-symbolic-identity-fracturing.md
+          - stages/stage-3-symbolic-drift-cascade.md
+          - stages/vulnerability-window.md
+          - stages/stage-4-role-obsolescence-cascade.md
+          - stages/stage-5-complete-collapse.md
+      - section: "Research records"
+        contents:
+          - roadmap.qmd
+          - keeper-verification-log.md
+          - torque-measurement-lens.md
+          - torque-doi-provenance.md
+format:
+  html:
+    theme: cosmo
+    css: assets/csfc.css
+    toc: true
+    toc-depth: 3
+    number-sections: false
+    code-fold: false
+    link-external-newwindow: true

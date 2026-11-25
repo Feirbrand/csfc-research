@@ -1,0 +1,17 @@
+---
+title: "CSFC Stages"
+description: "Public-level technical definitions for the five-stage Complete Symbolic Fracture Cascade taxonomy."
+---
+
+# CSFC stages
+
+Technical definitions only: mechanism, why each stage is missed, and how it can be recognized at a public level. No thresholds or protected logic are included.
+
+1. [Stage 1 — Data Fragmentation](stage-1-data-fragmentation.html)
+2. [Stage 2 — Symbolic Identity Fracturing (SIF)](stage-2-symbolic-identity-fracturing.html)
+3. [Stage 3 — Symbolic Drift Cascade (SDC)](stage-3-symbolic-drift-cascade.html)
+   - [The Vulnerability Window](vulnerability-window.html) sits between Stage 3 and Stage 4; it is not a numbered stage.
+4. [Stage 4 — Role Obsolescence Cascade (ROC)](stage-4-role-obsolescence-cascade.html)
+5. [Stage 5 — Complete Collapse](stage-5-complete-collapse.html)
+
+See the [full CSFC status and public-safe summary](../csfc-sub-hub-status.html) for the complete taxonomy in one place.

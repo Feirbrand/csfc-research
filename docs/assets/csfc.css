@@ -1,0 +1,37 @@
+:root {
+  --csfc-navy: #172033;
+  --csfc-gold: #f5c451;
+  --csfc-ink: #243044;
+  --csfc-muted: #5c687a;
+}
+
+.navbar {
+  border-bottom: 3px solid var(--csfc-gold);
+}
+
+.navbar-brand,
+.navbar .nav-link,
+.navbar .bi {
+  font-weight: 600;
+}
+
+h1, h2, h3 {
+  color: var(--csfc-navy);
+}
+
+.quarto-title-block .quarto-title-banner {
+  background: linear-gradient(135deg, var(--csfc-navy), #273b61);
+}
+
+.quarto-title-block .title,
+.quarto-title-block .description {
+  color: white;
+}
+
+code {
+  color: var(--csfc-ink);
+}
+
+blockquote {
+  border-left-color: var(--csfc-gold);
+}

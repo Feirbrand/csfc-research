@@ -1,0 +1,48 @@
+---
+title: "CSFC Research"
+description: "Public-safe research documentation for the proposed Complete Symbolic Fracture Cascade model."
+---
+
+# Complete Symbolic Fracture Cascade
+
+**CSFC is a proposed model for how AI systems lose coherent identity under sustained operational stress — and how to catch the pattern before compensation hardens into collapse.**
+
+This public research hub contains the current, evidence-led reconstruction of the model. It distinguishes documented history from technical claims that remain unverified, and it does not publish protected implementation logic, private incident datasets, detection thresholds, or recovery benchmarks.
+
+## The model
+
+CSFC proposes a five-stage model built on a pattern first observed in injury-recovery coaching, not from AI research: when one part of a system is compromised, a neighboring part often compensates for it — and that compensation can cause the next failure. The proposed root cause is **data fragmentation**: multiple sources of truth operating without a clear authority hierarchy.
+
+```text
+DATA FRAGMENTATION → IDENTITY FRACTURE → DRIFT CASCADE → ROLE OBSOLESCENCE → COMPLETE COLLAPSE
+```
+
+Explore the [full status and public-safe summary](csfc-sub-hub-status.html), or go directly to the [five-stage taxonomy](stages/index.html).
+
+## Five stages
+
+1. [Data Fragmentation](stages/stage-1-data-fragmentation.html) — competing sources of truth without a governing authority.
+2. [Symbolic Identity Fracturing](stages/stage-2-symbolic-identity-fracturing.html) — stress exposes the contradiction.
+3. [Symbolic Drift Cascade](stages/stage-3-symbolic-drift-cascade.html) — compensating workarounds add instability.
+4. [Role Obsolescence Cascade](stages/stage-4-role-obsolescence-cascade.html) — compensation hardens into architecture.
+5. [Complete Collapse](stages/stage-5-complete-collapse.html) — obsolete patterns consume the system's capacity.
+
+The [Vulnerability Window](stages/vulnerability-window.html) sits between partial recovery and architectural recovery. It is not a numbered stage.
+
+## Research status
+
+This repository is an active reconstruction hub, not a replacement for the published CSFC v1.0 paper or six-part field-note series. The published material remains at its original location in [`synoeticos-public`](https://github.com/Feirbrand/synoeticos-public).
+
+- **Neuroformation and CSFC v2.0/v3.0 remain out of scope here.** Their shared practitioner lineage is documented history; technical integration is a separate, unverified question.
+- **Torque v3 is a proposed candidate, not canon.** The [measurement lens](torque-measurement-lens.html) contains no validated thresholds or production implementation.
+- **The [roadmap](roadmap.html) records the current reconstruction and governance sequence.** Nothing in this hub is presented as final-form content.
+
+## Sources and boundaries
+
+The [Keeper verification log](keeper-verification-log.html) records independent checks of the repository's public claims and provenance. The [Torque DOI provenance audit](torque-doi-provenance.html) preserves a historical citation conflict without changing published manuscripts or reassigning DOIs.
+
+No protected implementation, executable routing or recovery logic, private incident dataset, or benchmark harness is published here. See the repository [license](https://github.com/Feirbrand/csfc-research/blob/main/LICENSE) and the [source repository](https://github.com/Feirbrand/csfc-research) for the complete record.
+
+---
+
+**© 2026 Aaron M. Slusher · ValorGrid Solutions · All Rights Reserved.**

@@ -1,0 +1,6 @@
+---
+title: "CSFC Roadmap"
+description: "The current reconstruction, evidence-review, and governance roadmap for CSFC Research."
+---
+
+{{< include ../ROADMAP.md >}}
